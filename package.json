@@ -11,14 +11,14 @@
 		"test": "test/test.js"
 	},
 	"dependencies": {
+		"@jsonlee_12138/markdown-it-mermaid": "^0.0.6",
 		"cheerio": "1.0.0-rc.10",
 		"commander": "2.20.0",
 		"express": "4.17.1",
 		"highlight.js": "^10.4.1",
-		"markdown-it": "12.3.2",
+		"markdown-it": "^14.1.0",
 		"markdown-it-anchor": "^8.1.0",
 		"markdown-it-emoji": "^2.0.2",
-		"markdown-it-mermaid": "^0.2.5",
 		"markdown-it-toc-done-right": "^4.2.0",
 		"mustache": "4.0.1",
 		"puppeteer": "13.5.1",

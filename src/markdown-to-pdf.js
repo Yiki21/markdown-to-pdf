@@ -12,8 +12,7 @@ const request = require('request').defaults({encoding: null}); // Encoding is "n
 const markdownIt = require('markdown-it');
 const markdownItAnchor = require('markdown-it-anchor');
 const markdownItTOC = require('markdown-it-toc-done-right');
-const markdownItEmoji = require('markdown-it-emoji');
-const markdownItMermaid = require('markdown-it-mermaid').default;
+import markdownItMermaid from '@markslides/markdown-it-mermaid';
 
 function nullCoalescing(value, fallback) {
 	return value !== undefined && value !== null ? value : fallback;
