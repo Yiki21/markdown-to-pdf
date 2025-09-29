@@ -191,3 +191,13 @@ jobs:
 
 Any contributions are helpful, please make a pull-request. If you would like to discuses a new feature, please create an
 issue first.
+
+## Now Support Mermaid
+
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
