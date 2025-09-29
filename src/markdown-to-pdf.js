@@ -13,7 +13,7 @@ const markdownIt = require('markdown-it');
 const markdownItAnchor = require('markdown-it-anchor');
 const markdownItTOC = require('markdown-it-toc-done-right');
 const markdownItEmoji = require('markdown-it-emoji');
-const markdownItMermaid = require('@markslides/markdown-it-mermaid');
+const markdownItMermaid = require('@jsonlee_12138/markdown-it-mermaid');
 
 function nullCoalescing(value, fallback) {
 	return value !== undefined && value !== null ? value : fallback;
@@ -58,8 +58,6 @@ function GetMarkdownIt() {
 		slugify: slugify,
 	});
 	md.use(markdownItEmoji);
-
-	md.use(markdownItMermaid);
 
 	md.use(markdownItMermaid({ delay: 100 }));
 	
